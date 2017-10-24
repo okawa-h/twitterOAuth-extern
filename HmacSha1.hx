@@ -1,9 +1,9 @@
-package jp.okawa.php.extern.twitterOAuth;
+package php.twitterOAuth;
 
-import jp.okawa.php.extern.twitterOAuth.Consumer;
-import jp.okawa.php.extern.twitterOAuth.Request;
-import jp.okawa.php.extern.twitterOAuth.Token;
-import jp.okawa.php.extern.twitterOAuth.SignatureMethod;
+import php.twitterOAuth.Consumer;
+import php.twitterOAuth.Request;
+import php.twitterOAuth.Token;
+import php.twitterOAuth.SignatureMethod;
 
 @:native('Abraham\\TwitterOAuth\\HmacSha1')
 extern class HmacSha1 extends SignatureMethod {

@@ -1,8 +1,8 @@
-package jp.okawa.php.extern.twitterOAuth;
+package php.twitterOAuth;
 
-import jp.okawa.php.extern.twitterOAuth.Consumer;
-import jp.okawa.php.extern.twitterOAuth.Request;
-import jp.okawa.php.extern.twitterOAuth.Token;
+import php.twitterOAuth.Consumer;
+import php.twitterOAuth.Request;
+import php.twitterOAuth.Token;
 
 @:native('Abraham\\TwitterOAuth\\SignatureMethod')
 extern class SignatureMethod {

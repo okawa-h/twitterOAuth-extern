@@ -1,4 +1,4 @@
-package jp.okawa.php.extern.twitterOAuth;
+package php.twitterOAuth;
 
 import haxe.extern.EitherType;
 import php.NativeArray;

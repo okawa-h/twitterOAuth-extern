@@ -1,4 +1,4 @@
-package jp.okawa.php.extern.twitterOAuth;
+package php.twitterOAuth;
 
 @:native('Abraham\\TwitterOAuth\\Token')
 extern class Token {
